@@ -1,0 +1,18 @@
+
+Comandos
+
+kubectl get nodes -> para listar todos los nodos
+
+kubectl config get-contexts
+
+kubectl get ns -> para listar name space
+
+que es un pod?
+
+Un pod es un set de contenedores
+
+kubectl -n kube-system get pods    -> permite listar los pods
+
+para crear un pod
+
+kubectl apply -f 01-pod.yml    (01-pod.yml es el archivo yml que contiene el cod)
